@@ -10,7 +10,7 @@ connectDB();
 
 app.use(cors({
     origin: [
-        "https://task-tracker-9qfa3nugv-sheezan-s-projects1.vercel.app",
+        "https://task-tracker-dun-six.vercel.app",
         "http://localhost:5173"
     ],
 }));
