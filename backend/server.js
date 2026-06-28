@@ -8,7 +8,11 @@ const app = express();
 
 connectDB();
 
-app.use(cors());
+app.use(cors({
+    origin: [
+        "https://task-tracker.vercel.app",
+    ],
+}));
 app.use(express.json());
 
 app.get("/", (req, res) => {
